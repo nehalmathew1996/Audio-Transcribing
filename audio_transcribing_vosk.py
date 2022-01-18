@@ -46,8 +46,8 @@ def audio_transcribe_vosk(speech_file):
     print(text)
 
 
-    for x in results[0]['result']:
-        print(x)
-        break
+#     for x in results[0]['result']:
+#         print(x)
+#         break
 
     return 0
